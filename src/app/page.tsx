@@ -1,6 +1,4 @@
 import { type Metadata } from 'next'
-import Image from 'next/image'
-import Link from 'next/link'
 
 import { ContactSection } from '@/components/ContactSection'
 import { Container } from '@/components/Container'
@@ -14,9 +12,8 @@ function Clients() {
   return (
     <div className="mt-24 rounded-4xl bg-neutral-950 py-20 sm:mt-32 sm:py-32 lg:mt-56">
       <Container>
-
         <FadeInStagger faster>
-          <blockquote className="relative font-display text-3xl font-medium tracking-tight text-white sm:text-4xl">
+          <blockquote className="relative font-display text-2xl font-medium tracking-tight text-white sm:text-3xl">
               <p className="before:content-['“'] after:content-['”'] sm:before:absolute sm:before:right-full">
                 WebOx's developers are among the most naturally gifted developers I've worked with, consistently tackling difficult challenges and tasks. Anyone who has the opportunity to work with WebOx should jump at it.
               </p>
@@ -154,10 +151,10 @@ export const metadata: Metadata = {
 export default async function Home() {
   return (
     <>
-      <Container className="mt-24 sm:mt-32 md:mt-56">
+      <Container className="mt-24 sm:mt-32 md:mt-56 mb-64">
         <FadeIn className="max-w-3xl">
-          <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-            Innovative Solutions for Digital Success          </h1>
+          <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl flex-auto">
+             Innovative Solutions for Digital Success          </h1>
           <p className="mt-6 text-xl text-neutral-600">
             We are a web development group dedicated to delivering modern and engaging user experiences. Let your business stand out with intuitive and responsive design for your clientele.
           </p>
