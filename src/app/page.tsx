@@ -10,7 +10,7 @@ import imageLaptop from '@/images/laptop.jpg'
 
 function Clients() {
   return (
-    <div className="mt-24 rounded-4xl bg-neutral-950 py-20 sm:mt-32 sm:py-32 lg:mt-56">
+    <div className="mt-24 rounded-4xl bg-neutral-950 py-20 sm:mt-32 sm:py-32 lg:mt-56 max-sm:mx-1">
       <Container>
         <FadeInStagger faster>
           <blockquote className="relative font-display text-2xl font-medium tracking-tight text-white sm:text-3xl">
@@ -87,7 +87,7 @@ function CaseStudies() {
                   Blockchain Web Solutions
                 </p>
                 <p className="mt-4 text-base text-neutral-600">
-                  Specializing in protocol-level web services, we serve communities built on <strong>Ethereum</strong>, <strong>Arbitrum</strong>, <strong>Optimism</strong>, and <strong>Base</strong>. Our team delivers tailored solutions for the evolving web3 ecosystem.
+                  Specializing in protocol-level web services, we serve communities built on <strong>Ethereum</strong>, <strong>Arbitrum</strong>, <strong>Optimism</strong>, and <strong>Base</strong>.
                 </p>
               </article>
             </FadeIn>
