@@ -7,7 +7,7 @@ import '@/styles/tailwind.css'
 export const metadata: Metadata = {
   title: {
     template: '%s - WebOx',
-    default: 'WebOx - Custom built web solutions',
+    default: 'WebOx | Custom Web Solutions',
   },
 }
 
