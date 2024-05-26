@@ -18,9 +18,6 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Footer } from '@/components/Footer'
 import { GridPattern } from '@/components/GridPattern'
-import { Logo, Logomark } from '@/components/Logo'
-import { Offices } from '@/components/Offices'
-import { SocialMedia } from '@/components/SocialMedia'
 import logo from "../images/logos/webox-high-resolution-logo-transparent.svg"
 
 const RootLayoutContext = createContext<{
@@ -74,7 +71,7 @@ function Header({
           <Image className='w-48 h-auto' src={logo} alt={'WebOx Logo'} />
         </Link>
         <div className="flex items-center gap-x-8">
-          <Button href="/contact" invert={invert}>
+          <Button href="/contact" className='max-[437px]:hidden' invert={invert}>
             Contact us
           </Button>
           <button
