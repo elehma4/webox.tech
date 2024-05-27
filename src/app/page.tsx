@@ -91,6 +91,34 @@ function CaseStudies() {
                 </p>
               </article>
             </FadeIn>
+            <FadeIn className="flex">
+              <article className="relative flex w-full flex-col rounded-3xl p-6 ring-1 ring-neutral-950/5 transition hover:bg-neutral-50 sm:p-8 ">
+                <h3>
+                    <span className="absolute inset-0 rounded-3xl" />
+                </h3>
+                <p className="mt-6 flex gap-x-2 text-sm text-neutral-950">
+                  <strong
+                    className="font-semibold"
+                  >
+                    Consulting Services
+                  </strong>
+                  <span className="text-neutral-300" aria-hidden="true">
+                    /
+                  </span>
+                  <span></span>
+                </p>
+                <p className="mt-6 font-display text-2xl font-semibold text-neutral-950">
+                  Advanced Web Consulting
+                </p>
+                <p className="mt-4 text-base text-neutral-600">
+                <p className="mt-4 text-base text-neutral-600">
+                <p className="mt-4 text-base text-neutral-600">
+                  Seeking a group of skilled engineers for your next software project? Our advanced web consulting services deliver comprehensive solutions and support, ensuring your large-scale system is reliable, efficient, and tailored to your specific needs.
+                </p>
+                </p>
+                </p>
+              </article>
+            </FadeIn>
         </FadeInStagger>
       </Container>
     </>
