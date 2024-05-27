@@ -111,11 +111,7 @@ function CaseStudies() {
                   Advanced Web Consulting
                 </p>
                 <p className="mt-4 text-base text-neutral-600">
-                <p className="mt-4 text-base text-neutral-600">
-                <p className="mt-4 text-base text-neutral-600">
-                  Seeking a group of skilled engineers for your next software project? Our advanced web consulting services deliver comprehensive solutions and support, ensuring your large-scale system is reliable, efficient, and tailored to your specific needs.
-                </p>
-                </p>
+                  Seeking a group of <strong>skilled engineers</strong> to build your software? Our advanced web consulting services deliver comprehensive solutions and support, ensuring your large-scale system is reliable, efficient, and tailored to your specific needs.
                 </p>
               </article>
             </FadeIn>
