@@ -15,13 +15,13 @@ function Clients() {
         <FadeInStagger faster>
           <blockquote className="relative font-display text-2xl font-medium tracking-tight text-white sm:text-3xl">
               <p className="before:content-['“'] after:content-['”'] sm:before:absolute sm:before:right-full">
-                WebOx's developers are among the most naturally gifted developers I've worked with, consistently tackling difficult challenges and tasks. Anyone who has the opportunity to work with WebOx should jump at it.
+                WebOx&apos;s developers are among the most naturally gifted developers I&apos;ve worked with, consistently tackling difficult challenges and tasks. Anyone who has the opportunity to work with WebOx should jump at it.
               </p>
             </blockquote>
         </FadeInStagger>
         <FadeIn className="flex items-center gap-x-8 mt-8">
           <h2 className="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">
-            - Adam Manka (Founder & Blockchain Specialist)
+            - Adam Manka (Founder &amp; Blockchain Specialist)
           </h2>
           <div className="h-px flex-auto bg-neutral-800" />
         </FadeIn>
@@ -133,7 +133,7 @@ export function Services() {
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          Showcase your brand's identity with our custom web solutions. Specialized strategies designed to amplify your digital presence.
+          Showcase your brand&apos;s identity with our custom web solutions. Specialized strategies designed to amplify your digital presence.
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -152,7 +152,7 @@ export function Services() {
               Stand out from the competition and accelerate your business with custom web solutions tailored to your unique needs.
             </ListItem>
             <ListItem title="Inspiring User Interfaces">
-              We have a skilled group of engineers ready to design and develop your application's user interface. 
+              We have a skilled group of engineers ready to design and develop your application&apos;s user interface. 
             </ListItem>
             <ListItem title="Cutting-Edge Technology">
               We stay at the forefront of technology, ensuring you benefit from advanced and effective solutions.
