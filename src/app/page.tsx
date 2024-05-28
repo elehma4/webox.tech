@@ -124,7 +124,7 @@ function CaseStudies() {
 /* 
  * SERVICES: Custom Image + Value Statements
 */
-export function Services() {
+function Services() {
   return (
     <>
       <SectionIntro
