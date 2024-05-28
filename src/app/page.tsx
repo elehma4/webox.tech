@@ -111,7 +111,7 @@ function CaseStudies() {
                   Advanced Web Consulting
                 </p>
                 <p className="mt-4 text-base text-neutral-600">
-                  Seeking a group of <strong>skilled engineers</strong> to build your software? Our advanced web consulting services deliver comprehensive solutions and support, ensuring your large-scale system is reliable, efficient, and tailored to your specific needs.
+                  Seeking a group of <strong>skilled engineers</strong> to build your software? Contact us about our comprehensive <strong>solutions</strong> and <strong>support</strong>.
                 </p>
               </article>
             </FadeIn>
@@ -133,7 +133,7 @@ export function Services() {
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          Unlock new business potential through cutting-edge web solutions.
+          Showcase your brand's identity with our custom web solutions. Specialized strategies designed to amplify your digital presence.
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -157,7 +157,7 @@ export function Services() {
             <ListItem title="Cutting-Edge Technology">
               We stay at the forefront of technology, ensuring you benefit from advanced and effective solutions.
             </ListItem>
-            <ListItem title="Media Services (Photo & Video)">
+            <ListItem title="Photography and Branding">
              Showcase your business with our high-quality photo and video services, whether on-location or through updated product photography.
             </ListItem>
           </List>
