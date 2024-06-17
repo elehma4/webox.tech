@@ -8,23 +8,49 @@ import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedImage } from '@/components/StylizedImage'
 import imageLaptop from '@/images/laptop.jpg'
 
-function Clients() {
+/* 
+ * SERVICES: Custom Image + Value Statements
+*/
+function Services() {
   return (
-    <div className="mt-24 rounded-4xl bg-neutral-950 py-20 sm:mt-32 sm:py-32 lg:mt-56 max-sm:mx-1">
+    <div className="rounded-4xl bg-neutral-950 py-20 sm:py-32 max-sm:mx-1">
       <Container>
         <FadeInStagger faster>
-          <blockquote className="relative font-display text-2xl font-medium tracking-tight text-white sm:text-3xl">
-              <p className="before:content-['“'] after:content-['”'] sm:before:absolute sm:before:right-full">
-                WebOx&apos;s developers are among the most naturally gifted developers I&apos;ve worked with, consistently tackling difficult challenges and tasks. Anyone who has the opportunity to work with WebOx should jump at it.
-              </p>
-            </blockquote>
+          <SectionIntro
+            eyebrow="Services"
+            title="We partner with you to transform challenges into opportunities."
+            className="text-white"
+            invert
+          >
+            <p>
+              Showcase your brand&apos;s identity with our custom web solutions.
+            </p>
+          </SectionIntro>
         </FadeInStagger>
-        <FadeIn className="flex items-center gap-x-8 mt-8">
-          <h2 className="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">
-            - Adam Manka (Founder &amp; Blockchain Specialist)
-          </h2>
-          <div className="h-px flex-auto bg-neutral-800" />
-        </FadeIn>
+      </Container>
+      <Container className="mt-16">
+        <div className="lg:flex lg:items-center lg:justify-end">
+          <div className="flex justify-center lg:w-1/2 lg:justify-end lg:pr-12">
+            <FadeIn className="w-[33.75rem] flex-none lg:w-[45rem]">
+              <StylizedImage
+                src={imageLaptop}
+                sizes="(min-width: 1024px) 41rem, 31rem"
+                className="justify-center lg:justify-end"
+              />
+            </FadeIn>
+          </div>
+          <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
+            <ListItem title="Modern Web Design" invert>
+              We have a skilled team ready to design and personalize your online presence through innovative strategies.
+            </ListItem>
+            <ListItem title="Custom Web Development" invert>
+              Stand out from the competition and accelerate your business with custom web solutions tailored to your unique needs.
+            </ListItem>
+            <ListItem title="Business Photography and Videography" invert>
+             Showcase your business with our high-quality photo and video services, including on-location shoots and updated product photography.
+            </ListItem>
+          </List>
+        </div>
       </Container>
     </div>
   )
@@ -38,7 +64,7 @@ function CaseStudies() {
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          Through innovative designs and advanced web technologies, we can strengthen your digital presence.
+          Through innovative designs and advanced web technologies, we can strengthen your online presence.
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -52,7 +78,7 @@ function CaseStudies() {
                   <strong
                     className="font-semibold"
                   >
-                    Regional Services
+                    Local Business
                   </strong>
                   <span className="text-neutral-300" aria-hidden="true">
                     /
@@ -60,10 +86,10 @@ function CaseStudies() {
                   <span></span>
                 </p>
                 <p className="mt-6 font-display text-2xl font-semibold text-neutral-950">
-                  Custom Web Development
+                  Web Development
                 </p>
                 <p className="mt-4 text-base text-neutral-600">
-                  Serving businesses throughout the <strong>Western Slope</strong>, <strong>Southern Colorado</strong>, <strong>Southern Utah</strong>, and surrounding areas. 
+                  Offering professional web development services to businesses throughout <strong>Manhattan</strong>, <strong>Clay County</strong>,  <strong>Salina</strong> and surrounding areas.
                 </p>
               </article>
             </FadeIn>
@@ -76,7 +102,7 @@ function CaseStudies() {
                   <strong
                     className="font-semibold"
                   >
-                    Web3 Services
+                    Regional Business
                   </strong>
                   <span className="text-neutral-300" aria-hidden="true">
                     /
@@ -84,10 +110,10 @@ function CaseStudies() {
                   <span></span>
                 </p>
                 <p className="mt-6 font-display text-2xl font-semibold text-neutral-950">
-                  Blockchain Web Solutions
+                  Custom Web Solutions
                 </p>
                 <p className="mt-4 text-base text-neutral-600">
-                  Specializing in protocol-level web services, we serve communities built on <strong>Ethereum</strong>, <strong>Arbitrum</strong>, <strong>Optimism</strong>, and <strong>Base</strong>.
+                  Serving the businesses of <strong>Kansas</strong> and nearby regions, we offer customized web solutions for <strong>small</strong> to <strong>mid-sized</strong> businesses.
                 </p>
               </article>
             </FadeIn>
@@ -108,10 +134,10 @@ function CaseStudies() {
                   <span></span>
                 </p>
                 <p className="mt-6 font-display text-2xl font-semibold text-neutral-950">
-                  Advanced Web Consulting
+                  Web Consulting
                 </p>
                 <p className="mt-4 text-base text-neutral-600">
-                  Seeking a group of <strong>skilled engineers</strong> to build your software? Contact us about our comprehensive <strong>solutions</strong> and <strong>support</strong>.
+                  Seeking a group of <strong>skilled engineers</strong> to build your software? Contact us about our comprehensive <strong>web solutions</strong> and <strong>support</strong>.
                 </p>
               </article>
             </FadeIn>
@@ -121,55 +147,52 @@ function CaseStudies() {
   )
 }
 
-/* 
- * SERVICES: Custom Image + Value Statements
-*/
-function Services() {
-  return (
-    <>
-      <SectionIntro
-        eyebrow="Services"
-        title="We partner with you to transform challenges into opportunities."
-        className="mt-24 sm:mt-32 lg:mt-40"
-      >
-        <p>
-          Showcase your brand&apos;s identity with our custom web solutions. Specialized strategies designed to amplify your digital presence.
-        </p>
-      </SectionIntro>
-      <Container className="mt-16">
-        <div className="lg:flex lg:items-center lg:justify-end">
-          <div className="flex justify-center lg:w-1/2 lg:justify-end lg:pr-12">
-            <FadeIn className="w-[33.75rem] flex-none lg:w-[45rem]">
-              <StylizedImage
-                src={imageLaptop}
-                sizes="(min-width: 1024px) 41rem, 31rem"
-                className="justify-center lg:justify-end"
-              />
-            </FadeIn>
-          </div>
-          <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
-            <ListItem title="Custom Web Development">
-              Stand out from the competition and accelerate your business with custom web solutions tailored to your unique needs.
-            </ListItem>
-            <ListItem title="Inspiring User Interfaces">
-              We have a skilled group of engineers ready to design and develop your application&apos;s user interface. 
-            </ListItem>
-            <ListItem title="Cutting-Edge Technology">
-              We stay at the forefront of technology, ensuring you benefit from advanced and effective solutions.
-            </ListItem>
-            <ListItem title="Photography and Branding">
-             Showcase your business with our high-quality photo and video services, whether on-location or through updated product photography.
-            </ListItem>
-          </List>
-        </div>
-      </Container>
-    </>
-  )
-}
+// function Services() {
+//   return (
+//     <>
+//       <SectionIntro
+//         eyebrow="Services"
+//         title="We partner with you to transform challenges into opportunities."
+//         className="mt-24 sm:mt-32 lg:mt-40"
+//       >
+//         <p>
+//           Showcase your brand&apos;s identity with our custom web solutions. Specialized strategies designed to amplify your digital presence.
+//         </p>
+//       </SectionIntro>
+//       <Container className="mt-16">
+//         <div className="lg:flex lg:items-center lg:justify-end">
+//           <div className="flex justify-center lg:w-1/2 lg:justify-end lg:pr-12">
+//             <FadeIn className="w-[33.75rem] flex-none lg:w-[45rem]">
+//               <StylizedImage
+//                 src={imageLaptop}
+//                 sizes="(min-width: 1024px) 41rem, 31rem"
+//                 className="justify-center lg:justify-end"
+//               />
+//             </FadeIn>
+//           </div>
+//           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
+//             <ListItem title="Custom Web Development">
+//               Stand out from the competition and accelerate your business with custom web solutions tailored to your unique needs.
+//             </ListItem>
+//             <ListItem title="Inspiring User Interfaces">
+//               We have a skilled group of engineers ready to design and develop your application&apos;s user interface. 
+//             </ListItem>
+//             <ListItem title="Cutting-Edge Technology">
+//               We stay at the forefront of technology, ensuring you benefit from advanced and effective solutions.
+//             </ListItem>
+//             <ListItem title="Photography and Branding">
+//              Showcase your business with our high-quality photo and video services, whether on-location or through updated product photography.
+//             </ListItem>
+//           </List>
+//         </div>
+//       </Container>
+//     </>
+//   )
+// }
 
 export const metadata: Metadata = {
   description:
-    'We build interactive web solutions that strengthen your digital presence. Our dedicated web3 team, innovative designs, and client-focused approach ensure your business stands out online and achieves success.',
+    'We build interactive web solutions that strengthen your digital presence. Our dedicated team, innovative designs, and client-focused approach ensure your business stands out online and achieves success.',
 }
 
 export default async function Home() {
@@ -178,14 +201,13 @@ export default async function Home() {
       <Container className="mt-24 sm:mt-32 md:mt-56 mb-72">
         <FadeIn className="max-w-3xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl flex-auto">
-             Innovative Solutions for Digital Success          </h1>
+             Innovative Solutions for Digital Success          
+          </h1>
           <p className="mt-6 text-xl text-neutral-600">
-            We are a web development group dedicated to delivering modern and engaging user experiences. Let your business stand out with intuitive and responsive design for your clientele.
+            We are a web development group dedicated to delivering modern and engaging user experiences. Boost your brand&apos;s presence with seamless, cutting-edge web designs that leave a lasting impression.
           </p>
         </FadeIn>
       </Container>
-
-      <Clients />
 
       <Services />
 
