@@ -71,10 +71,11 @@ function Header({
           <Image className='w-48 h-auto' src={logo} alt={'WebOx Logo'} />
         </Link>
         <div className="flex items-center gap-x-8">
-          <Button href="/contact" className='max-[437px]:hidden' invert={invert}>
+          <Button href="/contact" invert={invert}>
             Contact us
           </Button>
-          <button
+          {/* Menu Icon */}
+          {/* <button
             ref={toggleRef}
             type="button"
             onClick={onToggle}
@@ -94,7 +95,7 @@ function Header({
                   : 'fill-neutral-950 group-hover:fill-neutral-700',
               )}
             />
-          </button>
+          </button> */}
         </div>
       </div>
     </Container>

@@ -92,13 +92,13 @@ export function Footer() {
   return (
     <Container as="footer" className="mt-24 w-full sm:mt-32 lg:mt-40">
       <FadeIn>
-        <div className="mb-20 mt-24 flex flex-wrap items-end justify-between gap-x-6 gap-y-4 border-t border-neutral-950/10 pt-12">
+        <div className="mb-20 mt-24 flex flex-wrap items-center justify-between gap-x-6 gap-y-4 border-t border-neutral-950/10 pt-12">
           <Link href="/" aria-label="Home">
             <Image src={logo} alt={'WebOx Tech Solutions'} className='w-44 h-auto my-auto max-sm:py-5' />
           </Link>
-          <Navigation />
+          {/* <Navigation /> */}
           <p className="text-sm text-neutral-700">
-            © WebOx Solutions {new Date().getFullYear()}
+            © WebOx {new Date().getFullYear()}
           </p>
         </div>
       </FadeIn>
