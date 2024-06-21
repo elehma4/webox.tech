@@ -13,13 +13,13 @@ import imageLaptop from '@/images/laptop.jpg'
 */
 function Services() {
   return (
-    <div className="rounded-4xl bg-neutral-950 py-20 sm:py-32 max-sm:mx-1">
+    <div className="rounded-4xl bg-neutral-950 py-20 sm:py-32 max-sm:mx-1 max-sm:-mt-20">
       <Container>
         <FadeInStagger faster>
           <SectionIntro
             eyebrow="Services"
             title="We partner with you to transform challenges into opportunities."
-            className="text-white"
+            className="text-white max-sm:py-2"
             invert
           >
             <p>
@@ -44,7 +44,7 @@ function Services() {
               We have a skilled team ready to design and personalize your online presence through innovative strategies.
             </ListItem>
             <ListItem title="Custom Web Development" invert>
-              Stand out from the competition and accelerate your business with custom web solutions tailored to your unique needs.
+              Stand out from the competition and accelerate your business with custom web development tailored to your unique needs.
             </ListItem>
             <ListItem title="Business Photography and Videography" invert>
              Showcase your business with our high-quality photo and video services, including on-location shoots and updated product photography.
