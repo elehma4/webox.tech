@@ -80,7 +80,6 @@ function ContactForm() {
                 <RadioInput label="$1K – $3K" name="budget" value="1000" />
                 <RadioInput label="$3K – $5K" name="budget" value="3000" />
                 <RadioInput label="$5K - $10K" name="budget" value="5000" />
-                <RadioInput label="$10K+" name="budget" value="10000" />
               </div>
             </fieldset>
           </div>
@@ -101,11 +100,14 @@ function ContactDetails() {
       </h2>
       <dl className="grid grid-cols-1 gap-8 text-sm sm:grid-cols-2">
         {[
-          ['Email', 'team@webox.tech', 'mailto:team@webox.tech'],
-          ['Phone', '+1 (218) 232-8763', 'tel:+12182328763'],
-        ].map(([label, contact, href]) => (
+          ['Phone', 'Ethan Lehman', 'Web Development', '+1 (218) 232-8763', 'tel:+12182328763'],
+          ['Phone', 'Addy Lehman', 'Photography & Videography', '+1 (785) 447-0263', 'tel:+12182328763'],
+        ].map(([label, name, role, contact, href]) => (
           <div key={contact}>
             <dd>
+              <div>
+                {name} | {role}
+              </div>
               <Link
                 href={href}
                 className="text-neutral-600 hover:text-neutral-950"
