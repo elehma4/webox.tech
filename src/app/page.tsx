@@ -204,7 +204,7 @@ export default async function Home() {
              Innovative Solutions for Digital Success          
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-            We are a dedicated web development and media team committed to delivering modern, engaging user experiences. Elevate your brand&apos;s presence with our seamless, cutting-edge web designs that leave a lasting impression.
+            We are a dedicated web development and media team committed to delivering modern, engaging user experiences. Boost your brand&apos;s presence with our seamless, cutting-edge web designs that leave a lasting impression.
           </p>
         </FadeIn>
       </Container>
