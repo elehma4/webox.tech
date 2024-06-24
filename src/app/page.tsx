@@ -89,7 +89,7 @@ function CaseStudies() {
                   Web Development
                 </p>
                 <p className="mt-4 text-base text-neutral-600">
-                  Offering professional web development services to businesses throughout <strong>Manhattan</strong>, <strong>Clay County</strong>,  <strong>Salina</strong> and surrounding areas.
+                  Offering professional web development services to businesses throughout <strong>Clay County</strong>, <strong>Manhattan</strong>, <strong>Salina</strong> and surrounding areas.
                 </p>
               </article>
             </FadeIn>
